@@ -1,4 +1,4 @@
-# CodeAssistantCodeLlama
+# Code Assistant using CodeLlama
 
 ## Introduction
 
