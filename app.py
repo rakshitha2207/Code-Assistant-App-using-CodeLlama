@@ -32,7 +32,7 @@ def generate_response(prompt):
         print("error:",response.text)
 
 
-interface=gr.Interface(
+interface=gr.Blocks(
     fn=generate_response,
     inputs=gr.Textbox(lines=4,placeholder="Enter your Prompt"),
     outputs="text"
